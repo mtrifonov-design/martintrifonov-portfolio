@@ -19,12 +19,10 @@ function App() {
             Martin Trifonov
           </div>
           <a href="mailto:mtrifonov.design@gmail.com">mtrifonov.design@gmail.com</a>
-                <div style={{
-                  display: 'flex',
-                  flexDirection: 'row',
-                  gap: '0.5rem',
-                  marginTop: '0.2rem',
-                  alignItems: 'center',
+                <div 
+                className={"header-links"}
+                style={{
+
                 }}>
                   <a href="https://www.youtube.com/@martintrifonov" target='_blank'><Youtube /></a>
                   <a href="https://www.linkedin.com/in/martin-trifonov-945581196/" target='_blank'><Linkedin /></a>
@@ -34,7 +32,7 @@ function App() {
         </div>
       </div>
       <div style={{
-        height: '2rem',
+        height: '1rem',
       }}></div>
       {/* <h2>Creative Tools</h2> */}
       <ProjectPreview
