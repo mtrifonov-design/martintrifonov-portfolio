@@ -39,14 +39,14 @@ function App() {
       {/* <h2>Creative Tools</h2> */}
       <ProjectPreview
         title="Liquid Lissajous"
-        description="Web app for creating looping generative gradient animations from Lissajous curves."
+        description="Web app for creating looping gradient animations."
         impact="500+ exported animations"
         href="https://liquidlissajous.pinsandcurves.app"
         image="/liquidlissajous_thumb.jpg"
       />
       <ProjectPreview
-        title="WebGL-based 2D Graphics Engine"
-        description="Lightweight render-graph-style engine for 2D GPU graphics."
+        title="2D WebGL Graphics Engine"
+        description="Graphics library inspired by render-graph architectures."
         image="/pinsandcurvesengine_thumb.jpg"
         href="https://github.com/mtrifonov-design/pinsandcurves-engine"
       />
